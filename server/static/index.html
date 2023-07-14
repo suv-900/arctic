@@ -1,0 +1,19 @@
+<html>
+    <head>
+    <script src="https://unpkg.com/htmx.org@1.9.2" integrity="sha384-L6OqL9pRWyyFU3+/bjdSri+iIphTN/bvYyM37tICVyOJkWZLpP2vGn6VUEXgzg6h" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div>
+            Server page.
+            <label>Username</label>
+            <input  type="text"
+                    hx-post="localhost:/checkusername"
+                    hx-trigger="keyup delay:500ms "
+                    hx-target="search-usernameres"
+
+            />
+            <label>Password</label>
+            <input type="text" />
+        </div>
+    </body>
+</html>
