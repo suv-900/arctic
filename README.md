@@ -1,6 +1,11 @@
 # Arctic
 a clone of Netflix's backend
 
+# Project structure
+<img src="./images/Screenshot from 2023-07-15 11-59-54.png" alt="Screenshot">
+
+
+
 # Progress...
 
 - User Auth ✅
