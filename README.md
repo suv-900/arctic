@@ -1,7 +1,7 @@
 # Arctic
-Arctic - a clone of Netflix's backend
+a clone of Netflix's backend
 
-Progress...
+# Progress...
 
 - User Auth ✅
 - Client check servers connection ✅
