@@ -64,7 +64,7 @@ CREATE TABLE User(
 `
 */
 func ConnectAndMigrateDB() {
-	db1, err := sqlx.Open("mysql", "root:Core@123@/netflix?")
+	db1, err := sqlx.Open("mysql", "")
 
 	if err != nil {
 		log.Fatal(err)
